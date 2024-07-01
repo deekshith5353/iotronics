@@ -1,270 +1,237 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-* {
-  font-family: "Poppins", sans-serif;
-}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iotronics-IoT Club of NMIT</title>
+    <link rel="icon" href="public/external/favicon.ico" type="image/x-icon" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#home">
+        <img
+          src="public/external/iotronicslogo1updated23113-i3j-300w.png"
+          height="80"
+          alt=""
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-us">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blogs">Blogs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#teams">Teams</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-us">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Hero -->
+     <section>
+    <div id="home" class="hexagon">
+      <img
+      src="public/external/pent11717-79jo-500h.png"
+      width="500"
+      height="470"
+      alt="hexagon"
+      class="right-pic"
+      />
+    </div>
+    <div class="container">
+      <img
+      src="public/external/pinkkk1157-cagr-700w.png"
+      class="world"
+      alt="world"
+      />
+      <img
+      src="public/external/transpar23413-unw6-400w.png"
+      class="bulb"
+      alt="bulb"
+      />
+      <!-- <img
+      src="public/external/nameee1169-qn8l-600h-removebg-preview.png"
+      class="name"
+      alt="name"
+      /> -->
 
-body {
-  background-color: rgb(0, 0, 0);
-  color: white;
-}
+      <!-- glowing text -->
+      <div>
+       <p class="glow">IOTRONICS</p>
+      </div>
+      <img
+      src="public/external/underline11718-f9f7-800w.png"
+      class="underline"
+      alt="underline"
+      style="
+          top: 527px;
+          height: 50px;
+          left: 805px;
+          "
+      />
+      
+    </div>
 
-.navbar-dark.bg-dark {
-  background-color: rgb(0, 0, 0) !important;
-}
+    <div class="subtitle">
+    <p>- The IOT club of NMIT -</p>
+    </div>
+</section>
+    <!-- About Us -->
+    <div style="height: 9867px;">
+      <img
+        src="public/external/about1256-muz-900h.png"
+        class="wave"
+        alt="about-us"
+      />
+      <div class="empty-box-1" id="about-us">
+        <p></p>
+      </div>
+      <div class="about-us-text">
+        <h1>ABOUT US</h1>
+        <p>
+          This club is a place where students find the latest information about
+          topics related to the Internet of Things. Students of the IOTRONICS
+          club will be offered various programs and activities such as seminars,
+          workshops, short courses, and many as listed below. The club is
+          supported by internal and external experts who assist the students in
+          strategizing and organizing activities to help them gain knowledge and
+          skills related to lot. The club aims to guide students and prepare
+          them to pursue their professional careers in industries specializing
+          based on loT.
+        </p>
+      </div>
+    </div>
 
-.hexagon {
-  display: flex;
-  justify-content: flex-end;
-  float: right;
-  width: 900px; /* Set the width to increase the size */
-}
-.navbar-nav .nav-link {
-  font-size: 1.4rem;
-  justify-content: space-between;
-}
-.container {
-  position: relative;
-  width: 500px; /* Adjust the width as needed */
-  height: 500px;
-  display: flex;
-  justify-content: flex-end;
-  float: left; /* Adjust the height as needed */
-}
-.right-pic{
-  position: relative;
-  top: 100px;
-}
-.world,
-.bulb,
-.name,
-.underline {
-  position: absolute;
-  top: 100px;
-  left: 0px;
-  width: 140%; /* Adjust the width as needed */
-  height: 130%; /* Adjust the height as needed */
-}
-.bulb {
-  left: 200px; /* Adjust the opacity to see the overlapping effect */
-}
-.glow {
-  font-size: 80px;
-  position: relative;
-  top: 370px;
-  left: 879px;
-  color: #fff;
-  text-align: center;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
-}
+    <!-- Focuses -->
+    <div class="empty-box-2" id="blogs">
+      <p></p>
+    </div>
+    <div>
+      <img src="public/external/foc12854-a0ah-1200w.png" class="focus" alt="" />
+      <p class="focus-heading">FOCUSES</p>
+      <p class="focus-content">Cyber Security</p>
+      <p class="focus-content">Mechatronics</p>
+      <p class="focus-content" >iBMS (Integrated Building Management System)</p>
+      <p class="focus-content">Energy Management</p>
+      <p class="focus-content">Automation</p>
+      <p class="focus-content">Electrical Panel Design (LT panel, etc.)</p>
+      <p class="focus-content">Health Monitoring</p>
+    </div>
 
-@-webkit-keyframes glow {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px red, 0 0 40px red, 0 0 50px red, 0 0 60px red, 0 0 70px red;
-  }
-  to {
-    text-shadow: 0 0 20px #fff, 0 0 30px red, 0 0 40px red, 0 0 50px red, 0 0 60px red, 0 0 70px red, 0 0 80px red;
-  }
-}
-.subtitle{
-  position: relative;
-  top: 486px;
-    /* left: 60px; */
-  font-size: 28px;
-  display: inline-block;
-  left: 490px;
-  color: white;
-}
-.name {
-  left: 850px;
-  width: 130%;
-  height: 100%;
-  z-index: 01;
-}
-.underline {
-  left: 900px;
-  top: 200px;
-}
+    <!-- Teams -->
+    <div id="teams" class="teams">
+      <img src="public/external/teams.png" class="teamname" alt="" />
+      <a href="TECH TEAM.html" target="_main"><img src="public/external/techteam13413-ra7-500w.png" alt="tech" /></a>
+      <img
+        src="public/external/transpar23413-unw6-400w.png"
+        class="bulb2"
+        alt="iotbulb"
+      />
+      <a href="MARKETING AND MANAGEMENT TEAM.html" target="_main"><img src="public/external/mngteam13413-r4zp-600w.png" alt="marketing" /></a>
+      <a href="DESIGN TEAM.html" target="_main"><img
+        src="public/external/designteam13413-zzl-500h.png"
+        class="design-web"
+        alt="design"
+      /></a>
+      <a href="WEB DEV TEAM.html" target="_main"><img
+        src="public/external/webteam13413-aqa-500h.png"
+        class="design-web"
+        alt="webdev"
+      /></a>
+    </div>
 
-.wave {
-  width: 54%; /* Adjust image width as needed */
-  height: 10%; /* Maintain aspect ratio */
-  position: relative;
-  top: 437px;
-}
-.empty-box-1{
-  position: relative;
-  display: inline-block;
-  right: 600px;
-  bottom: 150px;
-}
-.about-us-text {
-  position: relative;
-  text-align: justify;
-  max-width: 720px;
-  left: 600px;
-  bottom: 200px;
-  font-size: 1.4rem;
-}
-.empty-box-2{
-  position: relative;
-  display: inline-block;
-  left: 950px;
-  top: 190px;
-}
-.focus {
-  width: 50%; /* Adjust image width as needed */
-  height: 10%; /* Maintain aspect ratio */
-  position: relative;
-  top: 240px;
-  left: 25%;
-}
-.focus-heading {
-  position: relative;
-  text-align: center;
-  bottom: 450px;
-  font-size: 1.9rem;
-}
-.focus-content {
-  position: relative;
-  text-align: center;
-  bottom: 370px;
-  font-size: 1.5rem;
-}
+    <!-- Recent Activity -->
+    <div class="recent-activity">
+      <p class="recent"><b>Recent Activity</b></p>
+      <div class="recent-activity-images">
+        <a href="#"
+          ><img
+            src="public/external/arrowr13414-rrmc-300h.png"
+            alt="rightarrow"
+        /></a>
+        <img
+          src="public/external/whatsappimage20240425at222213414-oj97-800h.png"
+          width="500"
+          alt="activity"
+        />
+        <a href="#"
+          ><img src="public/external/arrowl23514-5wmk-400h.png" alt="leftarrow"
+        /></a>
+      </div>
+    </div>
 
-.teamname {
-  position: relative;
-  left: 42%;
-  bottom: 240px;
-}
-.bulb2 {
-  position: relative;
-  top: 100px;
-}
+    <!-- Footer -->
+    <footer id="contact-us">
+      <div class="waves">
+        <div class="wavee" id="wave1"></div>
+        <div class="wavee" id="wave2"></div>
+        <div class="wavee" id="wave3"></div>
+        <div class="wavee" id="wave4"></div>
+      </div>
+      <ul class="social-icon">
+        <!-- <li><a href="mailto:iotronicsnmit@gmail.com?subject=Inquiry&body=Hello,"><ion-icon name="mail-outline"></ion-icon></a></li> -->
+        <li>
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=iotronicsnmit@gmail.com" target="_main"
+            ><ion-icon name="mail-outline"></ion-icon
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/iotronics.nmit" target="_blank"
+            ><ion-icon name="logo-instagram"></ion-icon
+          ></a>
+        </li>
+      </ul>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#blogs">Blogs</a></li>
+        <li><a href="#teams">Teams</a></li>
+        <li><a href="#contact-us">Contact Us</a></li>
+      </ul>
+      <p>&copy;2024 Iotronics | All rights reserved.</p>
+    </footer>
 
-.design-web {
-  position: relative;
-  left: 500px;
-}
-
-.recent {
-  font-size: 2.2rem;
-  text-align: center;
-  margin: 80px 0;
-}
-.recent-activity-images {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-.recent-activity-images img {
-  max-width: 100%;
-  height: auto;
-}
-
-footer {
-  position: relative;
-  width: 100%;
-  background: rgb(149, 22, 22);
-  min-height: 100px;
-  padding: 20px 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 200px;
-  flex-direction: column;
-}
-
-footer .social-icon,
-footer .menu {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px 0;
-  flex-wrap: wrap;
-}
-footer .social-icon li,
-footer .menu li {
-  list-style: none;
-}
-footer .social-icon li a {
-  font-size: 2rem;
-  color: white;
-  margin: 0 10px;
-  display: inline-block;
-  transition: 0.5s;
-}
-footer .social-icon li a:hover {
-  transform: translateY(-10px);
-}
-footer .menu li a {
-  font-size: 1.2rem;
-  color: white;
-  margin: 0 10px;
-  display: inline-block;
-  transition: 0.5s;
-  text-decoration: none;
-  opacity: 0.75;
-}
-footer .menu li a:hover {
-  opacity: 1;
-}
-footer p {
-  color: white;
-  text-align: center;
-  margin: 15px 10px;
-  font-size: 1.1rem;
-}
-
-footer .wavee {
-  position: absolute;
-  top: -100px;
-  left: 0;
-  width: 100%;
-  height: 100px;
-  /* background: url(wave.png); */
-  background-size: 1000px 100px;
-}
-footer .wavee#wave1 {
-  z-index: 1000;
-  opacity: 1;
-  bottom: 0;
-  animation: animateWave 4s linear infinite;
-}
-footer .wavee#wave2 {
-  z-index: 999;
-  opacity: 0.5;
-  bottom: 10px;
-  animation: animateWave_2 4s linear infinite;
-}
-footer .wavee#wave3 {
-  z-index: 1000;
-  opacity: 0.2;
-  bottom: 15px;
-  animation: animateWave 3s linear infinite;
-}
-footer .wavee#wave4 {
-  z-index: 999;
-  opacity: 0.5;
-  bottom: 20px;
-  animation: animateWave_2 2s linear infinite;
-}
-@keyframes animateWave {
-  0% {
-    background-position-x: 1000px;
-  }
-  100% {
-    background-position-x: 0px;
-  }
-}
-@keyframes animateWave_2 {
-  0% {
-    background-position-x: 0px;
-  }
-  100% {
-    background-position-x: 100px;
-  }
-}
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- icons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
