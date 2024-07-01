@@ -43,6 +43,23 @@ body {
 .bulb {
   left: 200px; /* Adjust the opacity to see the overlapping effect */
 }
+
+.glow {
+  position: relative;
+  left: 900px;
+  font-family: Arial, sans-serif;
+  font-size: 5em;
+  color: #ff0000;
+  text-align: center;
+  top: 270px;
+  text-shadow: 0 0 10px #ff0000, 
+               0 0 20px #ff0000, 
+               0 0 30px #ff0000, 
+               0 0 40px #ff0000, 
+               0 0 50px #ff0000, 
+               0 0 60px #ff0000, 
+               0 0 70px #ff0000;
+}
 .name {
   left: 850px;
   width: 130%;
@@ -60,6 +77,12 @@ body {
   position: relative;
   top: 330px;
 }
+.empty-box-1{
+  position: relative;
+  display: inline-block;
+  right: 600px;
+  bottom: 150px;
+}
 .about-us-text {
   position: relative;
   text-align: justify;
@@ -68,7 +91,12 @@ body {
   bottom: 200px;
   font-size: 1.4rem;
 }
-
+.empty-box-2{
+  position: relative;
+  display: inline-block;
+  left: 950px;
+  top: 190px;
+}
 .focus {
   width: 50%; /* Adjust image width as needed */
   height: 10%; /* Maintain aspect ratio */
